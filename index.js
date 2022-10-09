@@ -229,7 +229,7 @@ async function startALYA() {
         return status
     }
 	
-    ALYA.public = false
+    ALYA.public = true
 
     ALYA.serializeM = (m) => smsg(ALYA, m, store)
 
